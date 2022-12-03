@@ -1,0 +1,289 @@
+★
+{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#a517ba, #5f1782 );
+    padding: 0;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+
+}
+.navbar-nav li a{
+    color: whitesmoke;
+    font-weight: 600; 
+    
+}
+
+/* banner selection */
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.bottom-img{
+    width: 100%;
+}
+
+/* social media */
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p{
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+
+}
+.iconos-redes img{
+    width: 60px;
+    transition: 0.5s;
+
+}
+.iconos-redes a:hover img{
+    transform: translateY(-10px);
+
+}
+
+/* Gustos y habilidades */
+#gust-hab{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#gust-hab ul li{
+    margin: 10px 0;
+
+}
+#gust-hab ul li{
+    margin-left: 20px;
+
+}
+
+/* yo  mero */
+#yo-mero{
+    margin: 100px 0;
+}
+.yo-mero{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.yo-mero img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+/* Portafolio*/
+.card-title{
+    color: rgb(102, 33, 155);
+
+}
+.accordion-button:not(collapsed){
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    margin: 0 0 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 6px;
+
+}
+
+.portfolio-img{
+   
+    height: 80px;
+    width: 80px;
+}
+
+.accordion-button{
+    font-style: bold;
+    text-align: center;
+}
+.accordion{
+    text-align: center;;
+}
+
+
+
+
+
+
+
+
+
+
+button {
+    margin: 20px;
+  }
+  .custom-btn {
+    width: 280px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  
+  
+  /* 15 */
+  .btn-15 {
+    
+    background: #b621fe;
+    border: none;
+    z-index: 1;
+  }
+  .btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 5px;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+  .btn-15:hover {
+    color: #fff;
+  }
+  .btn-15:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .btn-15:active {
+    top: 2px;
+  }
+
+
+
+  /* yo mero de fotos */
+  .carousel {
+    padding: 30px;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  .carousel__container {
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 70px auto;
+    white-space: nowrap;
+  }
+  
+  .carousel--item {
+    display: inline-block;
+    position: relative;
+    margin: 10px 8px;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: lightblue;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 350ms all;
+    transform-origin: center left;
+  }
+  
+  .carousel--item:hover ~ .carousel--item {
+    transform: translate3d(100px, 0, 0);
+  }
+  .carousel__container:hover .carousel--item {
+    opacity: 0.3;
+  }
+  
+  .carousel__container:hover .carousel--item:hover {
+    transform: scale(1.2, 1.2);
+    opacity: 1;
+  }
+  
+  .carousel--item:hover .carousel--item__details {
+    opacity: 1;
+  }
+  
+  .carousel--item__img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+  }
+  .carousel--item__details {
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 10px;
+    background: linear-gradient(83deg, rgba(244, 67, 54, 0.8) 0%, rgba(255, 87, 34, 0.1) 100%);
+    opacity: 0;
+    transition: 350ms opacity;
+  }
+  .carousel--item__details img {
+    margin: 0 5px;
+    width: 20px;
+  }
+  
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+
+  
+
+  
